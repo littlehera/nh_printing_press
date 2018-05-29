@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nh_printing_press *.css
+recursive-include nh_printing_press *.csv
+recursive-include nh_printing_press *.html
+recursive-include nh_printing_press *.ico
+recursive-include nh_printing_press *.js
+recursive-include nh_printing_press *.json
+recursive-include nh_printing_press *.md
+recursive-include nh_printing_press *.png
+recursive-include nh_printing_press *.py
+recursive-include nh_printing_press *.svg
+recursive-include nh_printing_press *.txt
+recursive-exclude nh_printing_press *.pyc
